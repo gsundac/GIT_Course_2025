@@ -13,6 +13,7 @@ git commit -m "adding index and contact.html files"
 git status
 
 # Adding remote location and then pushing data up to the github repo.
+# After setting up ssh keys you need to set-url and assure global config variables are set, otherwise you get asked for a user/pass, which fails as GH no longer supports that auth via a push
 git remote set-url origin git@github.com:gsundac/GIT_Course_2025.git
 git push
 git status (should report back that remote has the same content as origin, which is the local repo on this machine.)
