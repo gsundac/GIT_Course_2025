@@ -18,3 +18,5 @@ git remote set-url origin git@github.com:gsundac/GIT_Course_2025.git
 git push
 git status (should report back that remote has the same content as origin, which is the local repo on this machine.)
 
+git pull vs git clone
+pull just gets updates, clone pulls the entire repo.
